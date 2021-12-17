@@ -38,4 +38,5 @@ export class ProductService {
     const url = `${this.baseUrl}/${product.id}`
     return this.http.put<Product>(url, product)
   }
+
 }
